@@ -66,7 +66,7 @@ if test -s /etc/nginx/nginx.conf; then
 	sleep 2s
 	rm -rf /usr/share/nginx/html/*
 	cd /usr/share/nginx/html/
-	wget https://github.com/siropboy/Trojan_web_wz/master/web/web.zip
+	wget https://github.com/siropboy/Trojan_web_wz/master/web.zip
 	unzip web.zip
 	green " "
 	green "================================="
