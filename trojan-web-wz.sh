@@ -47,7 +47,7 @@ if test -s /etc/systemd/system/trojan-web.service; then
 	 blue "  检测到Trojan面板服务，开始配置"
 	green "================================="
 	sleep 2s
-	##$systemPackage update -y
+	$systemPackage update -y
 	$systemPackage -y install nginx unzip curl wget
 	systemctl enable nginx
 	systemctl stop nginx
